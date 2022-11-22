@@ -15,7 +15,7 @@ var userSchema = new mongoose.Schema({
         }
     },
     dob:{type:'string'},
-    mobile:{type:'string',default:'000-000-0000',unique:true},
+    mobile:{type:'string',unique:true},
     password:{type:'string'},
     occupation:{type:'string'},
     company:{type:'string'},
